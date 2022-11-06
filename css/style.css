@@ -1,0 +1,576 @@
+@import url(../fonts/font.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Futura";
+}
+body {
+  background-color: rgb(245, 244, 253);
+}
+.k1 {
+  position: absolute;
+  top: 0px;
+  right: 280px;
+}
+.k2 {
+  position: absolute;
+  top: 0;
+  right: 0px;
+}
+.k3 {
+  position: absolute;
+  top: 220px;
+  right: 0px;
+}
+.k4 {
+  position: absolute;
+  top: 350px;
+  right: 400px;
+}
+.d3element {
+  position: absolute;
+  top: 130px;
+  right: 0px;
+}
+.text1 {
+  position: absolute;
+  top: 40px;
+  left: 370px;
+  font-size: 50px;
+}
+.textAP {
+  position: absolute;
+  top: 45px;
+  left: 290px;
+}
+.textAP2 {
+  position: absolute;
+  top: 55px;
+  left: 300px;
+  font-size: 30px;
+  color: white;
+}
+
+.text2 {
+  position: absolute;
+  font-size: 30px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 100;
+  top: 100px;
+  left: 650px;
+}
+.text3 {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 100;
+
+  top: 250px;
+  left: 290px;
+}
+.text4 {
+  position: absolute;
+  top: 300px;
+  left: 290px;
+
+  font-size: 55px;
+}
+.text5 {
+  position: absolute;
+  top: 440px;
+  left: 290px;
+
+  font-size: 55px;
+  background: linear-gradient(
+    95.98deg,
+    #a169f7 1.6%,
+    #00aaff 24.24%,
+    #ff6163 50.71%,
+    #97cf26 68.48%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.text6 {
+  position: absolute;
+  top: 530px;
+  left: 290px;
+
+  font-size: 20px;
+}
+.btn1 {
+  position: absolute;
+  top: 580px;
+  left: 290px;
+  width: 160px;
+  height: 50px;
+
+  font-size: 17px;
+  color: white;
+
+  background-color: #5956e9;
+  border: none;
+  border-radius: 20px;
+  transition: 0.5s;
+  box-shadow: 1px 5px 7px rgb(84, 77, 227);
+}
+
+.liniya1 {
+  position: absolute;
+  top: 580px;
+  z-index: -1;
+}
+
+.mishka {
+  position: absolute;
+  left: 49.5%;
+  top: 850px;
+}
+.tg {
+  position: absolute;
+  top: 55px;
+  right: 370px;
+}
+.tg2 {
+  position: absolute;
+  top: 38px;
+  right: 353px;
+  z-index: -1;
+}
+
+.liniya2 {
+  position: absolute;
+  top: 1195px;
+  left: 33%;
+}
+.mon1 {
+  position: absolute;
+  top: 1000px;
+  left: 520px;
+}
+.mon2 {
+  position: absolute;
+  top: 1011px;
+  left: 530px;
+}
+.mon3 {
+  position: absolute;
+  top: 1034px;
+  left: 1050px;
+}
+.montext {
+  position: absolute;
+  top: 1070px;
+  left: 670px;
+
+  font-size: 60px;
+  color: #fab8c4;
+}
+.montext2 {
+  position: absolute;
+  top: 1150px;
+  left: 600px;
+
+  color: white;
+
+  font-size: 40px;
+}
+.text7 {
+  position: absolute;
+  top: 1370px;
+  left: 700px;
+
+  font-size: 70px;
+  font: bolder;
+}
+.tel {
+  position: absolute;
+  top: 1470px;
+  left: 1070px;
+}
+.text8 {
+  position: absolute;
+  top: 1500px;
+  left: 330px;
+
+  font-size: 60px;
+}
+.text9 {
+  position: absolute;
+  top: 1600px;
+  left: 330px;
+
+  font-size: 20px;
+}
+.text10 {
+  position: absolute;
+  top: 1650px;
+  left: 330px;
+
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.k5 {
+  position: absolute;
+  top: 1750px;
+  right: 250px;
+}
+.number8 {
+  position: absolute;
+  top: 1950px;
+  left: 500px;
+}
+.text11 {
+  position: absolute;
+  top: 1990px;
+  right: 450px;
+
+  font-size: 60px;
+}
+.text12 {
+  position: absolute;
+  top: 2067px;
+  right: 377px;
+  z-index: 1;
+
+  font-size: 20px;
+}
+.bbes {
+  position: absolute;
+  top: 2060px;
+  right: 360px;
+}
+.text13 {
+  position: absolute;
+  top: 2100px;
+  right: 485px;
+
+  font-size: 25px;
+  font-weight: 100;
+}
+.text14 {
+  position: absolute;
+  top: 2450px;
+  left: 400px;
+
+  font-size: 60px;
+}
+.text15 {
+  position: absolute;
+  top: 2620px;
+  left: 400px;
+
+  font-size: 25px;
+  font-weight: 100;
+}
+.operator {
+  position: absolute;
+  top: 2460px;
+  right: 500px;
+}
+.k6 {
+  position: absolute;
+  top: 2500px;
+  left: 100px;
+}
+.liniya3 {
+  position: absolute;
+  top: 2720px;
+  right: 0;
+}
+.kalendar {
+  position: absolute;
+  top: 2950px;
+  left: 400px;
+}
+.zametka {
+  position: absolute;
+  top: 3460px;
+  right: 350px;
+}
+.text16 {
+  position: absolute;
+  top: 2950px;
+  right: 500px;
+
+  font-size: 60px;
+}
+.text17 {
+  position: absolute;
+  top: 3035px;
+  right: 480px;
+
+  font-size: 25px;
+  font-weight: 100;
+}
+.text18 {
+  position: absolute;
+  top: 3440px;
+  left: 350px;
+
+  font-size: 60px;
+}
+
+.text19 {
+  position: absolute;
+  top: 3550px;
+  left: 350px;
+
+  font-size: 25px;
+  font-weight: 100;
+}
+.k7 {
+  position: absolute;
+  top: 3250px;
+  left: 520px;
+}
+.k8 {
+  position: absolute;
+  top: 3500px;
+  right: 70px;
+}
+.backcard {
+  position: absolute;
+  top: 3850px;
+  left: 110px;
+}
+.backcard2 {
+  position: absolute;
+  top: 3850px;
+  left: 110px;
+}
+.text20 {
+  position: absolute;
+  top: 3950px;
+  left: 850px;
+
+  font-size: 60px;
+}
+.text21 {
+  position: absolute;
+  top: 4470px;
+  left: 750px;
+
+  font-size: 35px;
+}
+.text22 {
+  position: absolute;
+  top: 4530px;
+  left: 795px;
+
+  font-size: 35px;
+
+  color: #5956e9;
+}
+.card1 {
+  position: absolute;
+  top: 4080px;
+  left: 350px;
+}
+.card2 {
+  position: absolute;
+  top: 4080px;
+  left: 750px;
+}
+.card3 {
+  position: absolute;
+  top: 4080px;
+  right: 315px;
+}
+
+.cardprice {
+  position: absolute;
+  top: 4120px;
+  left: 0;
+
+  font-size: 60px;
+}
+.p2 {
+  left: 835px;
+  color: #fab8c4;
+}
+.p1 {
+  left: 455px;
+  color: #fab8c4;
+}
+.p3 {
+  left: 1230px;
+}
+.text {
+  position: absolute;
+  top: 4200px;
+
+  font-size: 30px;
+  color: white;
+}
+.t1 {
+  left: 510px;
+}
+.t2 {
+  left: 890px;
+}
+.t3 {
+  left: 1300px;
+}
+.lorem {
+  position: absolute;
+  top: 4270px;
+
+  font-size: 20px;
+  font-weight: 100;
+
+  color: rgb(145, 145, 145);
+}
+.l1 {
+  left: 390px;
+}
+.l2 {
+  left: 790px;
+}
+.l3 {
+  left: 1190px;
+  color: white;
+}
+.backbuisness {
+  position: absolute;
+  top: 5300px;
+  right: 0px;
+}
+.text23 {
+  position: absolute;
+  top: 4800px;
+  left: 670px;
+
+  font-size: 35px;
+  font-weight: 100;
+}
+.text24 {
+  position: absolute;
+  top: 4890px;
+  left: 610px;
+
+  font-size: 50px;
+  text-align: center;
+}
+.k9 {
+  position: absolute;
+  top: 5818px;
+}
+.k12 {
+  position: absolute;
+  top: 5681px;
+  left: 300px;
+}
+.k11 {
+  position: absolute;
+  top: 5230px;
+}
+.k10 {
+  position: absolute;
+  top: 5270px;
+  left: 350px;
+}
+.buisnes {
+  position: absolute;
+  top: 5412px;
+  right: 220px;
+}
+.text25 {
+  position: absolute;
+  top: 5200px;
+  right: 500px;
+
+  text-align: center;
+  font-size: 25px;
+}
+
+.backlogin {
+  position: absolute;
+  top: 5100px;
+  left: 400px;
+}
+.text26 {
+  position: absolute;
+  top: 5150px;
+  left: 550px;
+
+  font-size: 40px;
+}
+.login {
+  position: absolute;
+  top: 5270px;
+  left: 450px;
+}
+.password {
+  position: absolute;
+  top: 5400px;
+  left: 450px;
+}
+.remember {
+  position: absolute;
+  top: 5490px;
+  left: 450px;
+}
+.btn2 {
+  position: absolute;
+  top: 5550px;
+  left: 450px;
+
+  width: 420px;
+  height: 60px;
+  font-size: 30px;
+
+  border-radius: 20px;
+  border: none;
+
+  background-color: #5956e9;
+  color: white;
+}
+
+.text27 {
+  position: absolute;
+  top: 5230px;
+  left: 460px;
+
+  font-size: 30px;
+}
+.text28 {
+  position: absolute;
+  top: 5360px;
+  left: 460px;
+
+  font-size: 30px;
+}
+.text29 {
+  position: absolute;
+  top: 5490px;
+  left: 490px;
+
+  font-size: 20px;
+
+  color: #16171B;
+  font-weight: 100;
+}
+.text30{
+   position: absolute;
+  top: 5285px;
+  left: 470px;
+
+  font-size: 25px;
+
+  color: #16171B;
+  font-weight: 100;
+}
+.telefon{
+    position: absolute;
+  top: 5415px;
+  left: 470px;
+
+  font-size: 25px;
+
+  color: #474747;
+  font-weight: 100;
+}
